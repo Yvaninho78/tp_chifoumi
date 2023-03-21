@@ -112,3 +112,19 @@ function finirPartie(event) {// On récupère le coup joué par le joueur
     // On ajoute un event listener sur le bouton "Rejouer" qui renvoie vers la fonction "commencerPartie"
     boutons[1].addEventListener("click", commencerPartie);
 }
+
+function afficherScore() {
+    switch (statutJeu.textContent) {
+        case 'Félicitations!':
+            ScoreDuJoueur++;
+            afficherScore[1].textContent = ScoreDuJoueur;
+            break;
+            switch (statutJeu.textContent) {
+                case 'Copieur':
+
+            }
+    }
+
+
+
+}
