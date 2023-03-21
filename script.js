@@ -120,7 +120,10 @@ function afficherScore() {
             afficherScore[1].textContent = ScoreDuJoueur;
             break;
             switch (statutJeu.textContent) {
-                case 'Copieur':
+                case 'Looser!':
+                    ScoreOrdi++;
+                    afficherScore[1].textContent = ScoreOrdi;
+                    break;
 
             }
     }
